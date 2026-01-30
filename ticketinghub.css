@@ -1,20 +1,22 @@
-/* TicketingHub button base style */
-.th-widget button,
-.th-widget a {
-    background-color: #ffffff;
-    color: #000000;
+/* TicketingHub checkout button */
+.th-checkout-button {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+
     text-transform: uppercase;
-    font-family: 'Raleway', 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 600;
-    /* semi-bold */
+    font-family: Raleway, Lato, sans-serif !important;
+    font-size: 1em !important;
+    font-weight: 600 !important;
     letter-spacing: 2.3px;
 
-    padding: 16px 32px;
-   
-    border: none;
-    border-radius: 0;
-    
+    padding: 16px 32px !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
 
     cursor: pointer;
     transition:
@@ -23,10 +25,9 @@
         transform 0.2s ease;
 }
 
-/* Hover state */
-.th-widget button:hover,
-.th-widget a:hover {
-    background-color: #F17E92;
-    color: #ffffff;
+/* Hover */
+.th-checkout-button:hover {
+    background-color: #F17E92 !important;
+    color: #ffffff !important;
     transform: scale(1.04);
 }
