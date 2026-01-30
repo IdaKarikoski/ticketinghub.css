@@ -1,20 +1,20 @@
-/* TicketingHub checkout button */
+/* TicketingHub checkout button – preview */
 .th-checkout-button {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+    background-color: #ffffff;
+    color: #000000;
 
     text-transform: uppercase;
-    font-family: Raleway, Lato, sans-serif !important;
-    font-size: 1em !important;
-    font-weight: 600 !important;
+    font-family: 'Raleway', 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
     letter-spacing: 2.3px;
 
-    padding: 16px 32px !important;
+    padding: 16px 32px;
 
-    border: none !important;
-    border-radius: 0 !important;
+    border: none;
+    border-radius: 0;
 
-    display: inline-flex !important;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
@@ -27,7 +27,7 @@
 
 /* Hover */
 .th-checkout-button:hover {
-    background-color: #F17E92 !important;
-    color: #ffffff !important;
+    background-color: #F17E92;
+    color: #ffffff;
     transform: scale(1.04);
 }
